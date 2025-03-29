@@ -1,0 +1,62 @@
+<xml>
+    <flower name="coquelicot">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/9/98/Field_poppy_%28Papaver_rhoeas%29_in_meadow.jpg?uselang=fr"/>
+    </flower>
+    <flower name="marguerite">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/e/e7/Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg"/>
+    </flower>
+    <flower name="lavande">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/c/c2/Lavandula_angustifolia_-_lavender_-_Lavendel_-_01.jpg"/>
+    </flower>
+    <flower name="bleuet">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/0/07/Cornflower_-_Centaurea_cyanus_%2812190704546%29.jpg"/>
+    </flower>
+    <flower name="tournesol">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/e/eb/Sunflowers_helianthus_annuus.jpg"/>
+    </flower>
+    <flower name="violette">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Viola_riviniana-01_%28xndr%29.jpg/800px-Viola_riviniana-01_%28xndr%29.jpg"/>
+    </flower>
+    <flower name="primevère">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/c/c5/Primula_vulgari_closeup.jpg"/>
+        <image url="https://upload.wikimedia.org/wikipedia/commons/a/ad/Prole%C4%87no_cve%C4%87e_3.JPG"/>
+    </flower>
+    <flower name="campanule">
+        <image url="https://upload.wikimedia.org/wikipedia/commons/7/7d/Campanula_rotundifolia_%28plant%29.jpg"/>
+
+
+        
+<flower name="sureau noir">
+        <image url="https://media.lechemindelanature.com/2023/07/Sureau_noir-inflo_corymbe-Lcdn-HD.jpg"/>
+    </flower>
+    <flower name="ortie">
+        <image url="https://media.lechemindelanature.com/2023/07/Capture-decran-2023-07-05-a-16.23.50.png"/>
+    </flower>
+    <flower name="gaillet gratteron">
+        <image url="https://media.lechemindelanature.com/2023/07/Gaillet_gratteron-fleur-01-Lcdn-HD.jpg"/>
+    </flower>
+    <flower name="armoise commune">
+        <image url="https://media.lechemindelanature.com/2023/07/Armoise_commune-sommite-Pixabay-CC0-HD.jpg"/>
+    </flower>
+    <flower name="alliaire">
+        <image url="https://media.lechemindelanature.com/2023/07/Alliaire_officinale-sommite-02-Lcdn-HD-C.jpg"/>
+    </flower>
+    <flower name="érable plane">
+        <image url="https://media.lechemindelanature.com/2020/07/Erable_plane-feuille-01-Lcdn-Studio_minuscule-HD-C.jpg"/>
+    </flower>
+    <flower name="lierre grimpant">
+        <image url="https://media.lechemindelanature.com/2023/07/Capture-decran-2023-07-05-a-16.31.13.png"/>
+    </flower>
+    <flower name="lamier blanc">
+        <image url="https://media.lechemindelanature.com/2023/07/Grande_bardane-pousses-02-Lcdn-Aurelie_Marques-HD-C.jpg"/>
+    </flower>
+    <flower name="lierre terrestre">
+        <image url="https://media.lechemindelanature.com/2023/07/Laitue_vireuse-feuille_revers-01-Lcdn-Christophe-HD-2048x1536.jpg"/>
+    </flower>
+    <flower name="pâquerette">
+        <image url="https://media.lechemindelanature.com/2023/07/Bouillon-blanc_fleurs-1-Lcdn.png"/>
+    </flower>
+    <flower name="plantain lancéolé">
+        <image url="https://media.lechemindelanature.com/2023/07/Cirse_commun-inflorescence_infrutescence-Commons_wikimedia-CCBYSA40-IvarLeidus-HD.jpg"/>
+    </flower>
+</xml>
