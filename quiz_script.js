@@ -126,7 +126,7 @@ async function checkAnswer(selectedName, correctName) {
         bestChainChoices = [];
         correctChain = 0;
         document.getElementById("result").innerText = "Incorrect. 😢 Try again!";
-        await delay(1000)
+        await delay(3000)
         document.getElementById("result").innerText = ""
         waiting=false;
         populateQuiz("flowers.xml");
