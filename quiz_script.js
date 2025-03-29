@@ -62,7 +62,7 @@ function populateQuiz(filePath) {
 
         // Update the question
         let question_title = document.getElementById("question");
-        question_title.innerText = `Quelle fleur correspond à : `;
+        question_title.innerText = `Quelle plante correspond à: `;
         let flower_span = document.createElement("p")
          
         flower_span.id = "flower_s"
