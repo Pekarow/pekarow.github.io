@@ -3,6 +3,7 @@ let correctChain = 0;  // Tracks consecutive correct answers
 let bestChain = 0;
 let waiting=false;
 let bestChainChoices = []
+let quizz_images = []
 function parseXMLToDict(filePath) {
     if (flowerDict) {
         return Promise.resolve(flowerDict); // Return cached data if available
@@ -52,7 +53,6 @@ function selectRandomFlowers(count = 3) {
 }
 
 function populateQuiz(filePath) {
-    console.log(waiting)
     if (waiting===true) return;
     parseXMLToDict(filePath).then(() => {
         let selectedFlowers = selectRandomFlowers();
@@ -72,13 +72,14 @@ function populateQuiz(filePath) {
 
         let optionsContainer = document.getElementById("options");
         optionsContainer.innerHTML = "";
-
+        quizz_images=[];
         selectedFlowers.forEach(flower => {
             let optionDiv = document.createElement("div");
             optionDiv.className = "option";
             optionDiv.onclick = () => checkAnswer(flower.name, targetFlower.name);
 
             let img = document.createElement("img");
+            quizz_images.push(img);
             img.src = flower.images[0]; // Use the first image
             img.alt = flower.name;
 
@@ -96,6 +97,18 @@ function delay(milliseconds){
 async function checkAnswer(selectedName, correctName) {
     if (waiting===true) return;
     waiting=true;
+    console.log(quizz_images.length)
+    for (const imimage of quizz_images) 
+    {
+        console.log(imimage.getAttribute("alt"))
+        if (imimage.getAttribute("alt")===correctName)
+        {
+            imimage.id = "right-answer"
+        }
+        else{
+            imimage.id = "wrong-answer"
+        }
+    }
     if (selectedName === correctName) {
         bestChainChoices.push(correctName)
         correctChain++;
